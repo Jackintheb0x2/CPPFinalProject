@@ -131,7 +131,7 @@ void Commands(string command, Player& player, vector<Item>& StoreItems, bool sto
 	{
 		if (player.PlayerInventory.empty()) {
 			cout << "\nYou have no items!\n";
-		}
+		} 
 		else
 		{
 			//finds the name of the item you want to drop
